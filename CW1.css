@@ -2,10 +2,7 @@
 ul{
     list-style-type:disc;
 }
-/*create a class with specific bullets (none)*/
-.nobullet{
-    list-style-type: none;
-}
+
 /*Style header*/
 h1{
     border: 4px solid blue;
@@ -13,4 +10,17 @@ h1{
     width: 30%;
     margin-left: 35%;
     margin-right: 35%;
+}
+
+/*create a class with specific bullets (none)*/
+.nobullet{
+    list-style-type: none;
+}
+
+#emli {
+	font-style: italic;
+}
+
+#emstr {
+	font-weight: bold;
 }
